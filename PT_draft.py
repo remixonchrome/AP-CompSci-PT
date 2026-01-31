@@ -1,3 +1,5 @@
+# I used Google to assist in logic such as the lists, math for calcuating the progress, specifically the {percent:.1f} formatting for one decimal place.
+
 flights = [
     {"Date": "9/6/25", "hours": 1.5, "solo": False, "landings": 3},
     {"Date": "3/5/25", "hours": 1.2, "solo": False, "landings": 5},
@@ -8,7 +10,6 @@ flights = [
 def calc_flt_time(flight_list, required_hours):
     """
     Calculates total hours and progress toward license
-    Has sequencing, selection, and iteration
     """
 
     total_hours = 0
@@ -88,7 +89,7 @@ while True:
         print("=" * 50)
 
     elif choice == "3":
-        print("\nThanks for using Flight Logbook!")
+        print("\nMucho gracias for using Flight Logbook!")
         break
 
     else:
