@@ -6,26 +6,6 @@ A Python program to track flight training hours and progress toward getting your
 
 This is a command-line flight logbook that helps student pilots keep track of their training. You need 40 hours to get your license, so this calculates your total time, solo hours, landings, and shows you exactly how close you are to that goal.
 
-## Features
-
-- **Add new flight entries** - log your flights with date, hours, landings, and solo status
-- **Track your progress** - see total hours, solo hours, total landings, and percentage complete
-- **Get status updates** - motivational messages based on how far along you are
-- **Simple menu interface** - easy to navigate, just pick 1, 2, or 3
-
-## How to Run
-
-```bash
-python flight_logbook.py
-```
-
-The program starts with 3 sample flights already logged:
-- 9/6/25: 1.5 hours, 3 landings (dual)
-- 3/5/25: 1.2 hours, 5 landings (dual)
-- 1/25/26: 2.0 hours, 2 landings (dual)
-
-## Using the Program
-
 ### Main Menu
 1. **Add New Flight** - enter a new flight into your logbook
 2. **View Progress** - see a full report of your training stats
@@ -68,7 +48,7 @@ The program gives you different messages based on completion:
 - **75-99%**: "3/4ths of the way there!"
 - **100%+**: "Ready for license!"
 
-## Code Structure
+## Structure
 
 ```python
 # Flight data stored as list of dictionaries
@@ -93,7 +73,7 @@ Things I might add later:
 - Add instructor names
 - Export logbook to PDF or CSV
 - Visual progress bar
-  
+
 ## Sample Output
 
 ```
@@ -118,11 +98,3 @@ Hours Remaining:  35.3
 Status:           Keep practicing!
 ==================================================
 ```
-
-## Notes
-
-Made this to help track flight training progress while learning Python. The 40-hour requirement is standard for a private pilot's license in the US. If you're in a different country or going for a different license type, you can change the `required_hours` value in the function call.
-
----
-
-Feel free to use/modify this code for your own flight training!
