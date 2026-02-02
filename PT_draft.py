@@ -2,8 +2,6 @@
 
 flights = [
     {"Date": "9/6/25", "hours": 1.5, "solo": False, "landings": 3},
-    {"Date": "3/5/25", "hours": 1.2, "solo": False, "landings": 5},
-    {"Date": "1/25/26", "hours": 2.0, "solo": False, "landings": 2}
 ]
 
 
