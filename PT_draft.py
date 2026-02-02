@@ -1,9 +1,8 @@
 # I used Google to assist in logic such as the lists, math for calcuating the progress, specifically the {percent:.1f} formatting for one decimal place.
 
 flights = [
-    {"Date": "9/6/25", "hours": 1.5, "solo": False, "landings": 3},
-]
 
+]
 
 def calc_flt_time(flight_list, required_hours):
     """
