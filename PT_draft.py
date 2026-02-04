@@ -59,7 +59,7 @@ while True:
         print("\n--- ADD NEW FLIGHT ---")
         date = input("Date: ")
 
-        # Validation for hours
+
         while True:
             try:
                 hours = float(input("Hours flown: "))
@@ -67,7 +67,7 @@ while True:
             except ValueError:
                 print("Invalid input. Please enter a number.")
 
-        # Validation for landings
+
         while True:
             try:
                 landings = int(input("Number of landings: "))
